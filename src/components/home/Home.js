@@ -5,8 +5,8 @@ import UserProfile from "../user_profile/userProfile";
 import Experience from "../experience/exprecience";
 
 import company_avatar from "../../images/avatar.jpg";
-
 import oceaning from "../../images/company2.png";
+import HouseLogo from '../../images/house.png'
 
 const Home = () => (
   <Row>
@@ -77,6 +77,12 @@ const Home = () => (
         company="Oceaning - Estratégia e Marketing "
         description="Desenvolver aplicativos e aplicações web, utilizando React.js e React Native, juntamente com Node.js"
         avatar={oceaning}
+      />
+      <Experience
+        title="Front End | Mobile Developer "
+        company="WT2 - Softwares e Blockchain "
+        description="Desenvolver aplicativos e aplicações web, utilizando React.js e React Native, juntamente com PHP"
+        avatar={HouseLogo}
       />
     </Col>
   </Row>
